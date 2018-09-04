@@ -1,0 +1,35 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorAccent">@color/colorfr</item>
+    </style>
+
+    <style name="FirstTheme" parent="Theme.AppCompat.NoActionBar">
+        <!-- Theme for Main Activity. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimary</item>
+    </style>
+
+    <style name="SecondTheme" parent="Theme.AppCompat.NoActionBar">
+        <!-- Theme for Second Activity. -->
+        <item name="colorPrimary">@color/colorSe</item>
+        <item name="colorPrimaryDark">@color/colorSe</item>
+    </style>
+
+    <style name="ThirdTheme" parent="Theme.AppCompat.NoActionBar">
+        <!-- Theme for Third Activity. -->
+        <item name="colorPrimary">@color/colorTh</item>
+        <item name="colorPrimaryDark">@color/colorTh</item>
+    </style>
+
+    <style name="FourthTheme" parent="Theme.AppCompat.NoActionBar">
+        <!-- Theme for Fourth Activity. -->
+        <item name="colorPrimary">@color/colorfr</item>
+        <item name="colorPrimaryDark">@color/colorfr</item>
+    </style>
+
+
+</resources>
