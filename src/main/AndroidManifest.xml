@@ -9,8 +9,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".MainActivity"
-            android:theme="@style/FirstTheme">
+            android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -18,10 +17,9 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".second"
-            android:theme="@style/SecondTheme" />
-        <activity android:name=".third" android:theme="@style/ThirdTheme"/>
-        <activity android:name=".home" android:theme="@style/FourthTheme">
+            android:name=".second"/>
+        <activity android:name=".third"/>
+        <activity android:name=".home" >
 
         </activity>
     </application>

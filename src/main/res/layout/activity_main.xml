@@ -5,12 +5,12 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="adi.adi.com.webmobileapp.MainActivity"
-    android:background="#42A5F5">
+    android:background="@drawable/sff">
 
     <ImageView
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/cart"
+        android:layout_height="150dp"
+        android:src="@drawable/house"
         android:id="@+id/imageView"
         android:layout_centerVertical="true"
         android:layout_centerHorizontal="true" />
@@ -21,11 +21,13 @@
         android:text="Order from home"
         android:id="@+id/textView"
         android:textSize="25sp"
-        android:fontFamily="serif"
         android:textColor="#ffffff"
         android:layout_below="@+id/imageView"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="43dp" />
+        android:layout_marginTop="43dp"
+        android:fontFamily="serif"
+        android:typeface="normal"
+        android:textStyle="normal|italic" />
 
     <Button
         android:layout_width="wrap_content"
